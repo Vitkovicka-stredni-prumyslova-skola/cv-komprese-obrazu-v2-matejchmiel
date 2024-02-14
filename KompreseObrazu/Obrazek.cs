@@ -5,6 +5,17 @@ using System.Xml;
 
 namespace Komprese
 {
+    public class PraceSObrazkem : Obrazek{
+        private int[ ]pocetBarev;
+
+        Obrazek inputCSV = new Obrazek(testFilePath);
+        public void vyhledatPIX(){
+
+        }
+        public void spocitatPIX(){
+            
+        }
+    }
   public class Obrazek{
     /// <summary>
     /// Privátní statické dvourozměrné pole, které obsahuje jednotlivé symboly obrázku reprezentující barvu pixelu
